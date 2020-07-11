@@ -16,4 +16,13 @@ main(){
     }
     printf("\n");
   }
+  //Imprimir solo numeros Mayores de 5 en la matrizA
+  for(i=0;i<3;i++){
+    for(b=0;b<3;b++){
+      if(matrizA[i][b]>5){
+      printf("%i\t", matrizA[i][b]);
+      }
+    }
+    printf("\n");
+  }
 }
